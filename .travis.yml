@@ -1,6 +1,4 @@
 language: ruby # plus python manually on install-dependencies.sh
-rvm:
-  - 2.2
 sudo: enabled
 install:
   - gem install jekyll
