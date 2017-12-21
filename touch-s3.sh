@@ -1,3 +1,3 @@
 #!/bin/bash
-. ~/venv/bin/activate
+. ./venv/bin/activate
 python touch-s3.py
