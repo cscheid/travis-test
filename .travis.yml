@@ -1,3 +1,8 @@
-language: c # not really, but whatever, we'll install everything manually anyway
+language: ruby # plus python manually on install-dependencies.sh
+rvm:
+  - 2.2
 sudo: enabled
-install: ./travis/install-dependencies.sh
+install:
+  - gem install jekyll
+  - ./travis/install-dependencies.sh
+
