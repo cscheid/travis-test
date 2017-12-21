@@ -1,5 +1,5 @@
 task default: %w[test]
 
 task :test do
-  sh "python touch-s3.py"
+  sh "./touch-s3.sh"
 end
