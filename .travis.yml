@@ -1,0 +1,3 @@
+language: c # not really, but whatever, we'll install everything manually anyway
+sudo: enabled
+install: ./travis/install-dependencies.sh
